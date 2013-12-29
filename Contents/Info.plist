@@ -4,15 +4,38 @@
     <dict>
         <key>CFBundleIdentifier</key>
         <string>de.foopara.plex.ebook</string>
-        
+
         <key>PlexClientPlatforms</key>
-        <string>Linux,Windows,MacOSX,iOS,Android</string>
-        
+        <string>*</string>
+
         <key>PlexFrameworkVersion</key>
         <string>2</string>
 
         <key>PlexPluginClass</key>
-        <string>Agent</string>
+        <string>Content</string>
 
+        <key>CFBundleDevelopmentRegion</key>
+        <string>English</string>
+
+        <key>CFBundleExecutable</key>
+        <string></string>
+
+        <key>CFBundleInfoDictionaryVersion</key>
+        <string>6.0</string>
+        
+        <key>CFBundlePackageType</key>
+        <string>AAPL</string>
+        
+        <key>CFBundleSignature</key>
+        <string>hook</string>
+        
+        <key>CFBundleVersion</key>
+        <string>1.0</string>
+        
+        <key>PlexPluginDebug</key>
+        <string>1</string>
+        
+        <key>PlexPluginMode</key>
+        <string>AlwaysOn</string>
     </dict>
 </plist>
