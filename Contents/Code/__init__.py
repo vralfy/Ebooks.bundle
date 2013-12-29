@@ -1,7 +1,7 @@
 TITLE = "E-Books"
 ART = 'art-default.jpg'
 ICON = 'icon-default.png'
-
+ 
 def Start():
     Plugin.AddPrefixHandler("ebooks/main", MainMenu, TITLE, ICON, ART)
     Plugin.AddViewGroup("InfoList", viewMode="InfoList", mediaType="items")
